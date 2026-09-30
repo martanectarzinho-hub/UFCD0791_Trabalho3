@@ -1,0 +1,11 @@
+CLI001;TRANSFERENCIA;250.50;Pagamento de servicos de consultoria
+CLI002;DEPOSITO;1200.00;Deposito em conta poupanca a prazo
+CLI003;LEVANTAMENTO;50.00;Levantamento em caixa automatico Multibanco
+CLI004;TRANSFERENCIA;100.00
+CLI005TRANSFERENCIA100.00SEM_DELIMITADORES
+    
+CLI006;DEPOSITO;VALOR_INVALIDO_TEXTO;Deposito com montante invalido
+CLI007;LEVANTAMENTO;0.00;Levantamento com valor nulo
+CLI008;TRANSFERENCIA;-150.00;Transferencia com valor negativo
+CLI009;;200.00;Operacao sem tipo definido
+CLI010;TRANSFERENCIA;500.00;Transferencia interbancaria valida

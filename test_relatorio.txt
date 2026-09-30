@@ -1,0 +1,32 @@
+================================================================================
+RELATÓRIO DE PROCESSAMENTO DE MOVIMENTOS BANCÁRIOS
+Data de Execução: 2026-09-23 09:32:18
+================================================================================
+
+1. RESUMO GLOBAL DO LOTE
+--------------------------------------------------------------------------------
+Total de Linhas Lidas:              11
+Registos Validados com Sucesso:     4
+Registos Inválidos / Rejeitados:     7
+Montante Total Processado (Válido): 2000,50 EUR
+
+2. DESCRIMINAÇÃO POR TIPO DE OPERAÇÃO
+--------------------------------------------------------------------------------
+TIPO DE OPERAÇÃO          | QUANTIDADE   | MONTANTE TOTAL    
+--------------------------------------------------------------------------------
+DEPOSITO                  | 1            |         1200,00 EUR
+TRANSFERENCIA             | 2            |          750,50 EUR
+LEVANTAMENTO              | 1            |           50,00 EUR
+
+3. REGISTO DISCRIMINADO DE ANOMALIAS E ERROS
+--------------------------------------------------------------------------------
+Linha 4 | Registo: [CLI004;TRANSFERENCIA;100.00] | Motivo: Formato Estrutural Inválido - Estrutura inválida. Esperados 4 campos delimitados por ';', mas obtidos 3.
+Linha 5 | Registo: [CLI005TRANSFERENCIA100.00SEM_DELIMITADORES] | Motivo: Formato Estrutural Inválido - Estrutura inválida. Esperados 4 campos delimitados por ';', mas obtidos 1.
+Linha 6 | Registo: [    ] | Motivo: Formato Estrutural Inválido - Linha nula ou vazia.
+Linha 7 | Registo: [CLI006;DEPOSITO;VALOR_INVALIDO_TEXTO;Deposito com montante invalido] | Motivo: Dados Monetários Inválidos - Montante monetário inválido (não numérico): 'VALOR_INVALIDO_TEXTO'.
+Linha 8 | Registo: [CLI007;LEVANTAMENTO;0.00;Levantamento com valor nulo] | Motivo: Dados Monetários Inválidos - Montante monetário deve ser estritamente positivo (> 0.0): 0.0
+Linha 9 | Registo: [CLI008;TRANSFERENCIA;-150.00;Transferencia com valor negativo] | Motivo: Dados Monetários Inválidos - Montante monetário deve ser estritamente positivo (> 0.0): -150.0
+Linha 10 | Registo: [CLI009;;200.00;Operacao sem tipo definido] | Motivo: Formato Estrutural Inválido - Campo TIPO_OPERACAO não pode estar vazio.
+
+================================================================================
+FIM DO RELATÓRIO

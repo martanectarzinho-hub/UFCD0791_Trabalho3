@@ -1,0 +1,22 @@
+================================================================================
+RELATÓRIO DE PROCESSAMENTO DE MOVIMENTOS BANCÁRIOS
+Data de Execução: 2026-09-23 09:33:34
+================================================================================
+
+1. RESUMO GLOBAL DO LOTE
+--------------------------------------------------------------------------------
+Total de Linhas Lidas:              0
+Registos Validados com Sucesso:     0
+Registos Inválidos / Rejeitados:     0
+Montante Total Processado (Válido): 0,00 EUR
+
+2. DESCRIMINAÇÃO POR TIPO DE OPERAÇÃO
+--------------------------------------------------------------------------------
+Nenhuma operação válida foi registada.
+
+3. REGISTO DISCRIMINADO DE ANOMALIAS E ERROS
+--------------------------------------------------------------------------------
+Geral | Erro: O ficheiro de entrada 'ficheiro_inexistente.txt' não foi encontrado no sistema de ficheiros.
+
+================================================================================
+FIM DO RELATÓRIO
